@@ -3,6 +3,8 @@
         Options -MultiViews -Indexes
     </IfModule>
 
+    AddHandler application/x-httpd-ea-php82 .php .php8 .phtml
+
     RewriteEngine On
 
     # Handle Authorization Header

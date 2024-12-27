@@ -3,7 +3,7 @@
 <div class="relative flex container mx-auto  w-4/5 h-screen  items-center justify-center overflow-hidden max-md:h-[400px]"
 id="home">
     <!-- Video Background -->
-    <video class="absolute  inset-0 w-full object-cover rounded-2xl max-md:h-[400px] max-md:mt-10  lg:h-screen" autoplay loop muted>
+    <video class="absolute  inset-0 w-full object-cover rounded-2xl max-md:h-[400px] max-md:mt-10  lg:h-screen" autoplay loop muted playsinline>
         <source src="{{ asset('img/hero-bg-hd.mp4') }}" type="video/mp4" />
         Your browser does not support the video tag.
     </video>
